@@ -54,7 +54,8 @@
           "enableBackgroundRemoteNotifications": false
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-sqlite"
     ],
     "extra": {
       "eas": {

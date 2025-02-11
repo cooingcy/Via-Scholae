@@ -120,13 +120,7 @@ export const RegisterMotorista = () => {
 
   // Registrar motorista no banco de dados
   const handleRegister = async () => {
-    if (!isChecked) {
-      Alert.alert(
-        'Atenção!',
-        'Você deve aceitar os Termos de Uso para prosseguir.'
-      )
-      return
-    }
+
 
     if (
       username === '' ||
@@ -299,11 +293,11 @@ export const RegisterMotorista = () => {
           </TouchableOpacity>
 
           <CheckBoxContainer>
-            <CheckBox
+            {/*<CheckBox
               value={isChecked}
               onValueChange={setIsChecked}
               tintColors={{ true: '#E1B415', false: '#A7A6A6' }}
-            />
+            />*/}
 
             <TermsText1>Aceito os </TermsText1>
             <TermsText onPress={() => navigation.navigate('TermosdeUso')}>

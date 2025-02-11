@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { TouchableOpacity, Alert, ScrollView} from 'react-native'
-import CheckBox from '@react-native-community/checkbox'
 import {
   CustomLogo,
   CustomLabelText,
@@ -63,13 +62,7 @@ export const Register = () => {
   }, [cep])
 
   const handleRegister = async () => {
-    if (!isChecked) {
-      Alert.alert(
-        'Atenção!',
-        'Você deve aceitar os Termos de Uso para prosseguir.'
-      )
-      return
-    }
+
 
     if (
       username === '' ||
@@ -192,11 +185,11 @@ export const Register = () => {
           />
 
           <CheckBoxContainer>
-            <CheckBox
+            {/*<CheckBox
               value={isChecked}
               onValueChange={setIsChecked}
               tintColors={{ true: '#E1B415', false: '#A7A6A6' }}
-            />
+            />*/}
 
             <TermsText1>Aceito os </TermsText1>
             <TermsText onPress={() => navigation.navigate('TermosdeUso')}>
