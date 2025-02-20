@@ -31,14 +31,16 @@ Este projeto foi desenvolvido por:
 - **Revellin Mendes Ferreira**
 
 ## 🛠️ Tecnologias Utilizadas
-- **React Native** (Desenvolvimento Mobile)
-- **Expo** (Facilidade na implementação)
-- **SQLite** (Banco de Dados Local)
-- **Mapbox** (Geolocalização e Mapas)
+- **React Native** (Framework para desenvolvimento mobile)
+- **Expo** (Facilidade na implementação e desenvolvimento)
+- **SQLite** (Banco de dados local para armazenamento de informações)
+- **Mapbox** (API de mapas e geolocalização)
+- **Firebase Firestore** (Banco de dados em tempo real na nuvem)
+- **JavaScript** (Linguagem de programação utilizada no desenvolvimento)
+- **Node.js** (Backend para processamento e comunicação com o banco de dados)
 
 ## 📷 Demonstração
 *Adicione aqui prints ou GIFs do funcionamento do aplicativo.*
-
 
 ## ⚖️ Direitos Autorais
 © 2024 Via Scholae. Todos os direitos reservados.
