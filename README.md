@@ -1,6 +1,6 @@
 # Via Scholae
 
-![Via Scholae](https://via.placeholder.com/800x400.png?text=Via+Scholae)
+![Via Scholae](assets/Logo_ViaScholae.png)
 
 ## 🚀 Sobre o Projeto
 O **Via Scholae** é um sistema de acompanhamento de vans escolares, desenvolvido para proporcionar mais segurança e controle aos responsáveis pelo transporte dos alunos. A plataforma melhora a comunicação entre motoristas e responsáveis, garantindo maior transparência sobre o trajeto realizado até a escola.
