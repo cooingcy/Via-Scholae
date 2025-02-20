@@ -39,9 +39,6 @@ Este projeto foi desenvolvido por:
 - **JavaScript** (Linguagem de programação utilizada no desenvolvimento)
 - **Node.js** (Backend para processamento e comunicação com o banco de dados)
 
-## 📷 Demonstração
-*Adicione aqui prints ou GIFs do funcionamento do aplicativo.*
-
 ## ⚖️ Direitos Autorais
 © 2024 Via Scholae. Todos os direitos reservados.
 
